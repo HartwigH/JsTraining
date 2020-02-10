@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Euro converter</title>
+    <style>
+        html {
+            padding-top: 150px;
+            margin: auto;
+            width: 25%;
+        }
+    </style>
+</head>
+<body>
+    
+    <form>
+        Amount in Eur:<br>
+        <input type="number" name="euro" id="euro"><br>
+        Equals Usd:<br>
+        <input type="number" name="usd" id="usd"><br>
+    </form>
+
+    <input type="submit" value="Convert Eur to Usd" onclick="convertEurToUsd()">
+    <br>
+    <input type="submit" value="Convert Usd to Eur" onclick="convertUsdToEur()">
+
+    <script src="app.js"></script>
+</body>
+</html>
